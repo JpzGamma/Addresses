@@ -24,7 +24,8 @@ Ejecutar front:
 1) source .venv/bin/activate
 2)  python3 front_app.py
 
-Ejecutar solo en back
+Ejecutar solo el back:
+
 python3 ListIp.py \
   -d browser.events.data.microsoft.com \
   --fg-host https://44.221.165.216:10443 \
