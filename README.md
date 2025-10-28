@@ -14,14 +14,17 @@ cd Addresses
 
 # 2) Crear y activar venv (Linux/Mac)
 python3 -m venv .venv
+
 source .venv/bin/activate
 
 # 3) Instalar librerías
 pip install --upgrade pip
+
 pip install flask dnspython requests
 
 Ejecutar front:
 1) source .venv/bin/activate
+
 2)  python3 front_app.py
 
 Ejecutar solo el back:
